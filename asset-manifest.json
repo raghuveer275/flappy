@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flappy/static/css/main.3cc9f78f.chunk.css",
+    "main.js": "/flappy/static/js/main.62deb433.chunk.js",
+    "main.js.map": "/flappy/static/js/main.62deb433.chunk.js.map",
+    "runtime-main.js": "/flappy/static/js/runtime-main.c6831a61.js",
+    "runtime-main.js.map": "/flappy/static/js/runtime-main.c6831a61.js.map",
+    "static/js/2.242de3a2.chunk.js": "/flappy/static/js/2.242de3a2.chunk.js",
+    "static/js/2.242de3a2.chunk.js.map": "/flappy/static/js/2.242de3a2.chunk.js.map",
+    "index.html": "/flappy/index.html",
+    "precache-manifest.0e5f378a65f7dea774bd87fc59483f62.js": "/flappy/precache-manifest.0e5f378a65f7dea774bd87fc59483f62.js",
+    "service-worker.js": "/flappy/service-worker.js",
+    "static/css/main.3cc9f78f.chunk.css.map": "/flappy/static/css/main.3cc9f78f.chunk.css.map",
+    "static/js/2.242de3a2.chunk.js.LICENSE.txt": "/flappy/static/js/2.242de3a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6831a61.js",
+    "static/js/2.242de3a2.chunk.js",
+    "static/css/main.3cc9f78f.chunk.css",
+    "static/js/main.62deb433.chunk.js"
+  ]
+}
