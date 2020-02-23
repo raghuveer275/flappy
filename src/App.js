@@ -179,7 +179,7 @@ function App() {
     function moveWalls() {
       if (collision || !start) return;
 
-      walls.map(function (wall, i) {
+      walls.forEach((wall, i) => {
         // remove the wall when it's out of view
         if (wall.top.position.x < -30) {
           removeWall(wall);
@@ -202,7 +202,6 @@ function App() {
 
     let bird;
     let walls = [];
-    let foo = [];
     let score = 0;
     let start = false;
     let collision = false;
@@ -299,7 +298,7 @@ function App() {
 
       // remove bodies
       bird.removeBird();
-      walls.map(function (wall) {
+      walls.forEach((wall) => {
         removeWall(wall);
       });
 
