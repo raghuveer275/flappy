@@ -147,14 +147,14 @@ function App() {
 
     function createWall() {
 
-      let w = 60;
+      let w = 20;
       let x = width + w / 2;
-      // let maxH = height - 60 * 4; // height minus ground and then some
+      // let maxH = height - 20 * 4; // height minus ground and then some
 
-      let cut = getRandomIntInclusive(60, height - 120);
-      let hole = getRandomIntInclusive(120, 160);
+      let cut = getRandomIntInclusive(20, height - 80);
+      let hole = getRandomIntInclusive(80, 160);
 
-      let h1 = height - 60 - cut - hole;
+      let h1 = height - 20 - cut - hole;
       let h2 = cut - hole;
 
       let y1 = h1 / 2;
@@ -246,7 +246,7 @@ function App() {
       // Force vector to be applied
       let f = {
         x: 0,
-        y: -0.1
+        y: -0.03
       };
 
       Body.applyForce(b, p, f);
@@ -272,7 +272,7 @@ function App() {
 
     function startGame() {
       start = true;
-      engine.world.gravity.y = 1.5;
+      engine.world.gravity.y = 0.7;
       // set the bird to static at first
       startButton.style.display = 'none';
     }
