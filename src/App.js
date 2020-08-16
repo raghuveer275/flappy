@@ -116,7 +116,7 @@ function App() {
       this.w = 30;
       this.static = true;
       this.body = Bodies.circle(this.x, this.y, this.w, this.static);
-      this.body.render.sprite.texture = 'https://www.stickpng.com/assets/thumbs/584c69846e7d5809d2fa6366.png'
+      // this.body.render.sprite.texture = 'https://www.stickpng.com/assets/thumbs/584c69846e7d5809d2fa6366.png'
       this.body.render.sprite.xScale = .2
       this.body.render.sprite.yScale = .2
       this.body.restitution = .1;
